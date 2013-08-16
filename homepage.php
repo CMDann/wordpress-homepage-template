@@ -38,7 +38,4 @@ get_header(); ?>
 </div>
 </div>
 <div style="width: 100%; margin-top: 20px; clear: both;"><p> </p></div>
-<script type="text/javascript">
-document.getElementsByClassName(sharedaddy).style.display = "none !important";
-</script> 
 <?php get_footer(); ?>
