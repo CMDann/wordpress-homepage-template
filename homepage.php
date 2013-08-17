@@ -37,5 +37,4 @@ get_header(); ?>
 	<?php endwhile; ?>
 </div>
 </div>
-<div style="width: 100%; margin-top: 20px; clear: both;"><p> </p></div>
 <?php get_footer(); ?>
