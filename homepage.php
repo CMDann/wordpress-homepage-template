@@ -27,6 +27,7 @@ get_header(); ?>
 	<div id="post-<?php the_ID(); ?>">  
 		<h2><a href="<?php the_permalink() ?>" rel="bookmark"
 			title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+			<p><strong><?php the_date(); ?></strong></p>
 
 			<div class="entry-summary">
 				<?php the_excerpt(); ?> 
@@ -37,4 +38,8 @@ get_header(); ?>
 	<?php endwhile; ?>
 </div>
 </div>
+<div style="width: 100%; margin-top: 20px; clear: both;"><p> </p></div>
+<script type="text/javascript">
+document.getElementsByClassName(sharedaddy).style.display = "none !important";
+</script> 
 <?php get_footer(); ?>
