@@ -1,5 +1,6 @@
 WordPress-Homepage-Template
 ===========================
+<a href="https://coderwall.com/cmdann"><img alt="Endorse CMDann on Coderwall" src="https://api.coderwall.com/cmdann/endorsecount.png" /></a>
 
 This is a template file for a WordPress website. This file required Meteor Slides to display a slider at the top of the page. After the slider any page content you have added will be displayed. After the page content you will display the 5 most recent posts from the blog with an excerpt. 
 
