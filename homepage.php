@@ -37,13 +37,14 @@ get_header(); ?>
 <?php $temp_query = $wp_query; ?>  
 <?php query_posts('category_name=&showposts=5'); ?>  
 <div id="recentPostsHome">
-	<?php while (have_posts()) : the_post(); ?>  
+	<?php while (have_posts()) : the_post(); ?>
 	
 	<div id="post-<?php the_ID(); ?>">  
 		<h2><a href="<?php the_permalink() ?>" rel="bookmark"
 			title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
-			<p><strong><?php the_date(); ?></strong></p>
-
+			<p><strong><?php the_time("l, F d, Y"); ?> @ <?php the_time("g:i a"); ?></strong></p>
+			<br />
+			
 			<div class="entry-summary">
 				<?php the_excerpt(); ?> 
 			</div>
