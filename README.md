@@ -16,3 +16,5 @@ Change Log
 08.23.2013 - Added a date field so that all posts are displayed with the original posting date.
 
 08.16.2013 - Removed an unused div that found it's way into the bottom of the script near the call to the footer.php
+
+08.31.2013 - Fixed the date showing only once per day and added additional information.
