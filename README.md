@@ -12,6 +12,7 @@ Author: Daniel Blair
 
 Change Log
 ==========
+11.17.2014 - Added a second template that has a different layout, both accomplish the same thing
 
 08.23.2013 - Added a date field so that all posts are displayed with the original posting date.
 
